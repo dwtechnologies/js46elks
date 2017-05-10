@@ -156,7 +156,7 @@ exec() = Returns JSON string of the object and all daisy chained constructors. O
 
 Over SSH: `npm install git+ssh://git@github.com:dwtechnologies/js46elks.git`
 
-Over HTTPS: `npm install git+https://github.com:dwtechnologies/js46elks.git`
+Over HTTPS: `npm install git+https://github.com/dwtechnologies/js46elks.git`
 
 ## Using the API
 
