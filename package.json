@@ -1,0 +1,12 @@
+{
+	"name": "js46elks",
+	"version": "1.0.0",
+	"description": "JavaScript implementation for 46elks REST API",
+	"license": "MIT",
+	"repository": "github:dwtechnologies/js46elks",
+	"author": {
+		"name": "Anders Wallin",
+		"email": "anders.wallin@danielwellington.com"
+	},
+	"main": "api.js"
+}
