@@ -1,21 +1,14 @@
 "use strict"
 
 // Exported function will setup the API object with a USERNAME and PASSWORD before use.
+// Username and/or Password is optional, only needed for operation that posts to 46elks.
 // Arguments:
 //  username (string) Username for 46elks.
 //  password (string) Password for 46elks.
 module.exports = function (username, password) {
-	if (!username) {
-		throw new Error("Invalid value of mandatory field (username) in api")
-	}
-
-	if (!password) {
-		throw new Error("Invalid value of mandatory field (password) in api")
-	}
-
 	this.auth = {
-		username: username,
-		password: password
+		username: username || "",
+		password: password || ""
 	}
 
 	this.elks = {
